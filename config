@@ -28,3 +28,6 @@ input.filepath = W:\\MphasisDEV\\ClientCentral\\Charles\\temp\\input\\
 input.filename = data.txt
 
 output.filepath = W:\\MphasisDEV\\ClientCentral\\Charles\\temp\\output\\
+
+
+example-\\192.168.10.20\f$\MyDir\SubDir\text.doc
