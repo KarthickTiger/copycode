@@ -1,0 +1,30 @@
+#PRD URL COFIGURATIONS::
+#1.CC-ACCOUNT:
+# http://pwsawsagd2iis23:20025/odstoosf/ccaccount/
+
+#2.CC-CLIENT:
+# http://pwsawsagd2iis23:20025/odstoosf/ccclient/
+
+#3.ODS-ACCOUNT:
+# http://pwsawsagd2iis23:20025/odstoosf/odsaccount/
+
+#4.ODS-PARTY:
+# http://pwsawsagd2iis23:20025/odstoosf/odsparty/
+
+prd.url = http://pwsawsagd2iis23:20025/odstoosf/ccaccount/
+
+#QA URL COFIGURATIONS::
+
+#OTHER CONFIGURATIONS::
+
+#request.type = GET/POST
+request.type = POST
+
+#Time in milliseconds (int minutes = 1; long milliseconds = minutes * 60000; i.e, 3,00,000) 
+time.wait = 300000
+max.limit = 10
+
+input.filepath = W:\\MphasisDEV\\ClientCentral\\Charles\\temp\\input\\
+input.filename = data.txt
+
+output.filepath = W:\\MphasisDEV\\ClientCentral\\Charles\\temp\\output\\
